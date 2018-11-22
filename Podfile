@@ -7,5 +7,7 @@ target 'ModuleProject' do
 
   # Pods for ModuleProject
   pod 'HandyFrame'
+  
+  pod "Module_ACategory", :path => "../Module_ACategory"
 
 end

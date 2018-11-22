@@ -13,7 +13,6 @@
 		C8C34E7221A6646B0042E007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C34E7121A6646B0042E007 /* Assets.xcassets */; };
 		C8C34E7521A6646B0042E007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C34E7321A6646B0042E007 /* LaunchScreen.storyboard */; };
 		C8C34E7821A6646B0042E007 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C34E7721A6646B0042E007 /* main.m */; };
-		C8C34E8021A665BA0042E007 /* Module_AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C34E7F21A665BA0042E007 /* Module_AViewController.m */; };
 		C8C34E8321A665D30042E007 /* Module_BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C34E8221A665D30042E007 /* Module_BViewController.m */; };
 		E4C9A53022D1F12B13FBF184 /* libPods-ModuleProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2880AD656B68359739C8F62 /* libPods-ModuleProject.a */; };
 /* End PBXBuildFile section */
@@ -32,8 +31,6 @@
 		C8C34E7421A6646B0042E007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8C34E7621A6646B0042E007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C34E7721A6646B0042E007 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C8C34E7E21A665BA0042E007 /* Module_AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_AViewController.h; sourceTree = "<group>"; };
-		C8C34E7F21A665BA0042E007 /* Module_AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Module_AViewController.m; sourceTree = "<group>"; };
 		C8C34E8121A665D30042E007 /* Module_BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module_BViewController.h; sourceTree = "<group>"; };
 		C8C34E8221A665D30042E007 /* Module_BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Module_BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,8 +77,6 @@
 				C8C34E7321A6646B0042E007 /* LaunchScreen.storyboard */,
 				C8C34E7621A6646B0042E007 /* Info.plist */,
 				C8C34E7721A6646B0042E007 /* main.m */,
-				C8C34E7E21A665BA0042E007 /* Module_AViewController.h */,
-				C8C34E7F21A665BA0042E007 /* Module_AViewController.m */,
 				C8C34E8121A665D30042E007 /* Module_BViewController.h */,
 				C8C34E8221A665D30042E007 /* Module_BViewController.m */,
 			);
@@ -94,7 +89,6 @@
 				1F7A5BA894C1C500E6EB4E6B /* Pods-ModuleProject.debug.xcconfig */,
 				2D2FFEBF587692144A76C98F /* Pods-ModuleProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -178,15 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ModuleProject-checkManifestLockResult.txt",
 			);
@@ -202,7 +192,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C34E8021A665BA0042E007 /* Module_AViewController.m in Sources */,
 				C8C34E6D21A6646A0042E007 /* ViewController.m in Sources */,
 				C8C34E7821A6646B0042E007 /* main.m in Sources */,
 				C8C34E6A21A6646A0042E007 /* AppDelegate.m in Sources */,
