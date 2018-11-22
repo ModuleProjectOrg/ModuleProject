@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "Module_AViewController.h"
+//#import "Module_AViewController.h"
+#import <Module_ACategory/CTMediator+Module_A.h>
 #import <HandyFrame/UIView+LayoutMethods.h>
 
 @interface ViewController ()
@@ -22,9 +23,7 @@
     [super loadView];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    
     [self.view addSubview:button];
-    
     self.button = button;
 }
 
@@ -62,7 +61,8 @@
 }
 
 - (void)pushAViewController {
-    Module_AViewController *viewController = [[Module_AViewController alloc] init];
+//    Module_AViewController *viewController = [[Module_AViewController alloc] init];
+    UIViewController *viewController = [[CTMediator sharedInstance] Module_AViewController];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
