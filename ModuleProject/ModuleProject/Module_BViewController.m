@@ -7,6 +7,7 @@
 //
 
 #import "Module_BViewController.h"
+#import <HandyFrame/UIView+LayoutMethods.h>
 
 @interface Module_BViewController ()
 
@@ -54,7 +55,8 @@
 
 - (void)setupLayout {
     [self.contentLabel sizeToFit];
-    self.contentLabel.center = self.view.center;
+//    self.contentLabel.center = self.view.center;
+    [self.contentLabel centerEqualToView:self.view];
 }
 
 @end

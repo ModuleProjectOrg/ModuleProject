@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Module_AViewController.h"
+#import <HandyFrame/UIView+LayoutMethods.h>
 
 @interface ViewController ()
 
@@ -43,7 +44,8 @@
 
 - (void)setupLayout {
     [self.button sizeToFit];
-    self.button.center = self.view.center;
+//    self.button.center = self.view.center;
+    [self.button centerEqualToView:self.view];
 }
 
 - (void)setupUI {

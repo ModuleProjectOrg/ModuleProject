@@ -8,6 +8,7 @@
 
 #import "Module_AViewController.h"
 #import "Module_BViewController.h"
+#import <HandyFrame/UIView+LayoutMethods.h>
 
 @interface Module_AViewController ()
 
@@ -39,7 +40,8 @@
 
 - (void)setupLayout {
     [self.button sizeToFit];
-    self.button.center = self.view.center;
+//    self.button.center = self.view.center;
+    [self.button centerEqualToView:self.view];
 }
 
 - (void)setupUI {
