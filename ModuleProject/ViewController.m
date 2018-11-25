@@ -62,7 +62,9 @@
 
 - (void)pushAViewController {
 //    Module_AViewController *viewController = [[Module_AViewController alloc] init];
-    UIViewController *viewController = [[CTMediator sharedInstance] Module_AViewController];
+    UIViewController *viewController = [[CTMediator sharedInstance] Module_AViewControllerWithCallBack:^(NSString *result) {
+        NSLog(@"%@", result);
+    }];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

@@ -1,14 +1,15 @@
 PODS:
   - CTMediator (25)
   - HandyFrame (1.2.0)
-  - Module_A (5):
+  - Module_A (8):
     - HandyFrame
-  - Module_ACategory (2):
+    - Module_BCategory
+  - Module_ACategory (3):
+    - CTMediator
+  - Module_BCategory (2):
     - CTMediator
 
 DEPENDENCIES:
-  - CTMediator
-  - HandyFrame
   - Module_A
   - Module_ACategory
 
@@ -19,13 +20,15 @@ SPEC REPOS:
   https://github.com/ModuleProjectOrg/PersonalPods.git:
     - Module_A
     - Module_ACategory
+    - Module_BCategory
 
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
-  Module_A: 93afe0e1d9b97e56c58843e5600e874c24331b4e
-  Module_ACategory: b553dc3061fce282275b664a90f838e931ce1b7e
+  Module_A: df046e326e49c20ee1abe032b1354fb0a7151a54
+  Module_ACategory: 5efba22f3aa0b7afeeb767bb86847f095b79cf71
+  Module_BCategory: 12257e711141fa48f74228ede1de7dcf9bb43248
 
-PODFILE CHECKSUM: 396a22fb4b3309bafbdd0cf57d9bc12656bb38c2
+PODFILE CHECKSUM: 77716dd0301f70a16f6332dc3e51759f9a4c5d36
 
 COCOAPODS: 1.6.0.beta.2
