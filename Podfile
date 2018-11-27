@@ -16,5 +16,6 @@ target 'ModuleProject' do
   pod 'Module_ACategory'
 
   # pod 'CTMediator'
+  pod 'Module_B'
 
 end

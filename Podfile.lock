@@ -6,12 +6,15 @@ PODS:
     - Module_BCategory
   - Module_ACategory (3):
     - CTMediator
+  - Module_B (2):
+    - HandyFrame
   - Module_BCategory (2):
     - CTMediator
 
 DEPENDENCIES:
   - Module_A
   - Module_ACategory
+  - Module_B
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -20,6 +23,7 @@ SPEC REPOS:
   https://github.com/ModuleProjectOrg/PersonalPods.git:
     - Module_A
     - Module_ACategory
+    - Module_B
     - Module_BCategory
 
 SPEC CHECKSUMS:
@@ -27,8 +31,9 @@ SPEC CHECKSUMS:
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
   Module_A: df046e326e49c20ee1abe032b1354fb0a7151a54
   Module_ACategory: 5efba22f3aa0b7afeeb767bb86847f095b79cf71
+  Module_B: 953a5e20147b4009b943438b46c1bd3c54aeba62
   Module_BCategory: 12257e711141fa48f74228ede1de7dcf9bb43248
 
-PODFILE CHECKSUM: 77716dd0301f70a16f6332dc3e51759f9a4c5d36
+PODFILE CHECKSUM: 7621038ccf3990c4cb0338b28df04d0b21f192d6
 
 COCOAPODS: 1.6.0.beta.2
